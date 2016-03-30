@@ -1,0 +1,11 @@
+// Javascript Entry Point
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MyApp from './app';
+
+ReactDOM.render(
+  <MyApp/>
+  , document.querySelector('.app')
+);
